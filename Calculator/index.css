@@ -1,0 +1,40 @@
+#calc {
+  display: flex;
+  justify-self: center;
+  border: 2px solid skyblue;
+  width: 177px;
+  height: 235px;
+  background-color: cornflowerblue;
+}
+.calc-body {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+}
+.row1,
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+.clear,
+.delete {
+  width: 80px;
+  height: 30px;
+}
+button {
+  width: 40px;
+  height: 30px;
+}
+.screen {
+  margin: 5px 0px;
+}
+.zero {
+  width: 85px;
+}
+.screen {
+  height: 25px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
