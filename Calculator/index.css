@@ -27,14 +27,18 @@ button {
   width: 40px;
   height: 30px;
 }
-.screen {
-  margin: 5px 0px;
-}
 .zero {
   width: 85px;
 }
 .screen {
+  margin: 5px 0px;
   height: 25px;
+  width: 175px;
   border: 1px solid blue;
   border-radius: 10px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: aqua;
 }
