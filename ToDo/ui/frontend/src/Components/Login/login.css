@@ -1,0 +1,17 @@
+.login-conatiner {
+  width: 600px;
+  height: 600px;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: center;
+}
+.login-box {
+  width: 300px;
+  height: 200px;
+  background-color: cyan;
+}
+input {
+  border: 1px solid black;
+  height: 30px;
+  width: 200px;
+}
